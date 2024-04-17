@@ -48,6 +48,11 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 /* Program for flipflops and verify its truth table in quartus using Verilog programming.
 
+Developed by: ADARSH CHOWDARY R
+
+RegisterNumber:212223040166
+
+
 ```
 module SR_flipflop(q, q_bar, s,r, clk, reset);//SR Flip Flop Behavioral Level using ‘case’ 
   input s,r,clk, reset;
@@ -70,10 +75,6 @@ module SR_flipflop(q, q_bar, s,r, clk, reset);//SR Flip Flop Behavioral Level us
   assign q_bar = ~q;
 endmodule
 ```
-
-Developed by: ADARSH CHOWDARY R
-
-RegisterNumber:212223040166
 
 */
 
